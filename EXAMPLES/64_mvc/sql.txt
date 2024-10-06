@@ -1,0 +1,13 @@
+create database mvcdb63;
+
+use mvcdb63
+
+create table students
+(
+student_id int not null auto_increment primary key,
+name varchar(30) not null,
+college varchar(45) not null,
+degree varchar(7) not null,
+gender varchar(1) not null,
+course varchar(10) not null
+);

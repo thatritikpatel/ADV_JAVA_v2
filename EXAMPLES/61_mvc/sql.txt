@@ -1,0 +1,10 @@
+create database mvcdb61;
+
+create table students
+(
+student_id int not null auto_increment primary key,
+name varchar(30) not null,
+degree varchar(10) not null,
+branch varchar(5) not null,
+semester varchar(5) not null
+);

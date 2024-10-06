@@ -1,0 +1,27 @@
+create table users
+(
+user_id int not null primary key auto_increment,
+user_name varchar(30) not null,
+email varchar(60) not null unique,
+password varchar(12),
+pic_path varchar(40) not null,
+);
+
+alter table users change column pic_path pic_path varchar(40) null;
+
+create table status
+(
+status_id int not null auto_increment primary key,
+status varchar(20) not null
+);
+
+insert into status
+(status) values ('Active'),('Inactive'),('Blocked'),('Closed');
+
+alter table users add column status_id int not null,
+add constraint fk_users_status foreign key (status_id)
+references status (status_id);
+
+show indexes from users;
+
+alter table users add column activation_code varchar(100) null;

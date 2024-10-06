@@ -1,0 +1,4 @@
+You can access any resource within the application 
+through forward. In other words you can't specify 
+path to resource of outside application.
+

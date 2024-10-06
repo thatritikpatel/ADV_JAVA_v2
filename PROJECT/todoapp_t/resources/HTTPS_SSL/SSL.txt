@@ -1,0 +1,7 @@
+//Generate Certificate:
+keytool -genkey -alias isrdc -keyalg RSA -keystore "C:\Tomcat 9.0\conf\isrdc.cert"
+
+//Show Certificate:
+keytool -v -list -keystore "C:\Tomcat 9.0\conf\isrdc.cert"
+
+//open C://tomcat 9.0/conf/server.xml

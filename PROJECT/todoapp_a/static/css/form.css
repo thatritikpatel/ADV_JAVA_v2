@@ -1,0 +1,57 @@
+form{
+	border: 1px solid red;
+	border-radius: 7px;
+	width: 70%;
+	background-color: #fffdfd;
+	margin: 50px auto;
+}
+
+table{
+	/* border: 1px solid #ffd9de; */
+	margin: 50px auto 20px auto;
+	width: 60%;
+}
+
+td,th{
+	/* border: 1px solid #ffd9de; */
+	height: 50px;
+}
+
+th{
+	width: 50%;
+	color: #5d5d5d;
+	border-right: 1px solid #fedbda; 
+}
+
+td{
+	width: 50%;
+}
+
+#btn_box{
+	text-align: center;
+}
+
+caption{
+	font-size: 24px;
+	color: #c83415;
+	font-weight: bold;
+}
+
+#btn{
+	font-size: 20px;
+	padding: 7px 18px;
+	border: 1px solid #054a02;
+	color: white;
+	cursor: pointer;
+	border-radius: 5px; 
+	background-color: #11bb2b;
+	font-weight: bold;	
+}
+
+.fld{
+	font-size: 20px;
+	padding: 3px 1px 3px 3px;
+	margin-left: 30px;
+	border: 1px solid #d6d5d3;
+	border-radius: 3px;
+}

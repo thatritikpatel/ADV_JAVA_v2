@@ -1,0 +1,149 @@
+#main_body{
+		
+}
+
+#main_container{
+	height: 470px;
+	width: 95%;
+	border: 1px solid #23097d;
+	border-radius: 10px;
+	margin: 0px auto;
+}
+
+#lft_dv{
+	width: 20%;
+	height: 470px;
+	border: 1px solid #bcbcbc;
+	float: left;
+	border-radius: 10px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+#rht_dv{
+	width: 80%;
+	height: 470px;
+	border: 1px solid #bcbcbc;
+	border-radius: 10px;
+	margin-left: 20%;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.con_act{
+	height: 33%;
+	text-align: center;
+	position: relative;
+	color: #4f4f4f;
+	cursor: pointer;
+}
+
+.con_act span{
+	position: absolute;
+	top: 60px;
+	left: 40px;
+	font-size: 26px;	
+	font-weight: bold;
+}
+
+.con_act img{
+	height: 30px;
+	position: absolute;
+	top: 60px;
+	left: 275px;
+	visibility: hidden;
+}
+
+.con_act_ov{
+	background-color: #48a802;
+	color: white;
+}
+
+.con_act_ot{
+	background-color: #fff;
+	color: #4f4f4f;
+}
+
+#arr1{
+	visibility: visible;
+}
+
+#all_con{	
+	border-bottom: 1px solid #bcbcbc;
+}
+
+#new_con{
+	border-bottom: 1px solid #bcbcbc;
+}
+
+#inv_con{
+	
+}
+
+#act_box{
+	border: 1px solid #bcbcbc;
+	height: 100%;
+	width: 95%;
+	/* background-color: yellow; */
+	margin: 0px auto;
+	border-top: none;
+}
+
+#srch_bar{
+	width: 550px;
+	margin: 0px auto;
+	background-color: #23097d;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#srch_fld{
+	font-size: 20px;
+	padding: 3px 8px;
+	border: 1px solid white;
+	margin: 7px; 
+	border-radius: 5px;
+}
+
+#find_btn{
+	background-color: #03a914;
+	color: white;
+	padding: 5px 18px;
+	border: 1px solid #097e05;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#recs{
+	border: 1px solid #cfcfcf;
+	width: 95%;
+	height: 85%;
+	margin: 10px auto;
+	border-radius: 8px;
+	background-color: #fff9fd;
+	position: relative;
+	overflow: auto;
+}
+
+.rec_{
+	width: 45%;
+	border: 1px solid #ff3ec0;
+	height: 30%;
+	border-radius: 8px;
+	position: absolute;
+}
+
+.rec_lft{
+	
+	left: 20px;
+}
+
+.rec_rht{
+	
+	left: 500px;
+}
